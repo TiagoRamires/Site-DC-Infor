@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Open Sans', sans-serif;
+}
+.row{
+    margin: 0;
+}
+
+.nav-container{
+    padding: 20px 0;
+}
+
+header, .navbar{
+    background-color: rgba(16, 16, 16, 0.70);
+}
+
+#nav-container{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#navbar-links a{
+    color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+.px-2 {
+    padding-left: (2% * .5) !important;
+    padding-right: (10px * .5) !important;
+}
+/*slider*/
+.container-fluid{
+    padding: 0 !important;
+}
+
+#carouselIndicators .carousel-caption{
+    top: 40%;
+}
+
+#carouselIndicators .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    background-color: rgba(16, 16, 16, 0.70);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+#carouselIndicators .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.bordas{
+    background-color: rgba(16, 16, 16, 0.70);
+    border-radius: 50px;
+    padding: 15px;
+    border-color: rgba(16, 16, 16, 0.70);
+}
+
+.main-btn{
+    background-color: rgba(255, 255, 255, 0.70);
+    width: 200px;
+    height: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    padding: 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    border-color:rgba(255, 255, 255, 0.90);
+    color: black;
+    background-color: transparent;
+}
