@@ -8,10 +8,7 @@
     margin: 0;
 }
 
-.nav-container{
-    padding: 20px 0;
-}
-
+/* navbar */
 header, .navbar{
     background-color: rgba(16, 16, 16, 0.70);
 }
@@ -28,13 +25,17 @@ header, .navbar{
     padding: 1rem .8rem;
 }
 
-.px-2 {
-    padding-left: (2% * .5) !important;
-    padding-right: (10px * .5) !important;
+#nav-container .px-2{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 /*slider*/
 .container-fluid{
     padding: 0 !important;
+}
+
+#carouselIndicators .carousel-inner, #carouselIndicators .carousel-item{
+    height: 80vh;
 }
 
 #carouselIndicators .carousel-caption{
@@ -43,6 +44,7 @@ header, .navbar{
 
 #carouselIndicators .carousel-caption h2{
     font-size: 50px;
+    padding: 5px;
     margin-bottom: 30px;
     background-color: rgba(16, 16, 16, 0.70);
     border-radius: 20px;
@@ -82,4 +84,40 @@ header, .navbar{
     border-color:rgba(255, 255, 255, 0.90);
     color: black;
     background-color: transparent;
+}
+
+/* sobre menu principal */
+
+#areaLayout{
+    background-color: rgba(16, 16, 16, 0.30);
+}
+
+.main-title{
+    color: black;
+    margin: 15px 0 65px 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.main-title::after {
+    content: "";
+    border-bottom: 2px solid black;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+.about-title{
+    font-size: 19px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.img-fluid.image-size{
+    height: 75%;
+    width: 90%;
+    border-radius: 30px;
 }
